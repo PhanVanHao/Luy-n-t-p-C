@@ -1,0 +1,10 @@
+#1.Rẽ nhánh 
+Cấu trúc if…else
+
+Như chính tên gọi của nó. Cấu trúc này có hai thành phần. 
+Thành phần đầu tiên là từ khoá if chứa một biểu thức, tiếp đó là khối lệnh đang chờ được thực thi của nó. 
+Thành phần thứ hai là từ khoá else cũng kèm theo khối lệnh đang chờ thực thi. Vì cấu trúc rất rõ ràng mạch lạc như đã nêu
+>nên bên cạnh cấu trúc if…else còn có các cấu trúc khác như if, if lồng if, else if,….
+>Tất cả các cấu trúc này đều phục vụ với mục đích chung đó là giúp bạn kiểm soát được chương trình của chính mình. 
+>Vì những dòng mã được thực thi hay không là dựa vào điều kiện đúng hay sai mà kết quả của biểu thức trong if trả về. 
+>Do đó, giúp cho lập trình viên dễ dàng quản lí chương trình của mình hơn.
