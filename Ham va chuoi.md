@@ -133,9 +133,9 @@ Cú pháp:
 ```
 return ; /*không trả về giá trị*/
 
-return <biểu thức>; /*Trả về giá trị của biểu thức*/
+return <biểu thức>; //Trả về giá trị của biểu thức
 
-return (<biểu thức>); /*Trả về giá trị của biểu thức*/
+return (<biểu thức>); //Trả về giá trị của biểu thức
 ```
 Nếu hàm có kết quả trả về, ta bắt buộc phải sử dụng câu lệnh return để trả về kết quả cho hàm.
 
@@ -267,7 +267,7 @@ int main()
 
 char c = ‘A’;
 
-InKT(‘*’); /* In ra 50 dau * */
+InKT(‘*’); // In ra 50 dau * 
 
 InKT(‘+’);
 
@@ -296,7 +296,7 @@ int hoanvi(int a, int b)
 
 int t;
 
-t=a; /*Đoạn này hoán vị giá trị của 2 biến a, b*/
+t=a; //Đoạn này hoán vị giá trị của 2 biến a, b
 
 a=b;
 
@@ -363,21 +363,21 @@ Ví dụ: Xét chương trình sau đây:
 
 long hoanvi(long *a, long *b)
 
-/* Khai báo tham số hình thức *a, *b là các con trỏ kiểu long */
+// Khai báo tham số hình thức *a, *b là các con trỏ kiểu long 
 
 {
 
 long t;
 
-t=*a; /*gán nội dung của x cho t*/
+t=*a; //gán nội dung của x cho t
 
-*a=*b; /*Gán nội dung của b cho a*/
+*a=*b; //Gán nội dung của b cho a
 
-*b=t; /*Gán nội dung của t cho b*/
+*b=t; //Gán nội dung của t cho b
 
 printf("\n Ben trong ham a=%ld , b=%ld",*a,*b);
 
-/*In ra nội dung của a, b*/
+//In ra nội dung của a, b
 
 return 0;
 
@@ -397,7 +397,7 @@ scanf("%ld%ld",&a,&b);
 
 printf("\n Truoc khi goi ham hoan vi a=%ld ,b=%ld",a,b);
 
-hoanvi(&a,&b); /* Phải là địa chỉ của a và b */
+hoanvi(&a,&b); // Phải là địa chỉ của a và b 
 
 printf("\n Sau khi goi ham hoan vi a=%ld ,b=%ld",a,b);
 
@@ -459,7 +459,7 @@ return n*giaithua_dequy(n-1);
 
 }
 
-/*Hàm tính n! không đệ quy*/
+//Hàm tính n! không đệ quy
 
 unsigned int giaithua_khongdequy(int n)
 
