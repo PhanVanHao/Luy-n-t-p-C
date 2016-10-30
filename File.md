@@ -26,7 +26,8 @@ Nếu bạn thao tác với các file nhị phân, bạn có thể có các các
 Đóng file trong C
 Để đóng 1 file bạn có thể sử dụng hàm fclose() dưới đây:
 
-``` int fclose( FILE *fp );
+``` 
+int fclose( FILE *fp );
 ```
 Hàm fclose( ) trả về giá trị zero nếu thành công hoặc EOF nếu có lỗi trong quá trình đóng file. Hàm này thực tế xóa các dữ liệu trong bộ đệm đối với file, đóng file và giải phóng bộ nhớ được sử dụng với file. EOF là một hằng số được định nghĩa trong phần stdio.h.
 
